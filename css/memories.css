@@ -19,10 +19,10 @@
 /**                                   第一部分                                  **/
 /*盒子*/
 .ly-box01 {
-	width:50ex;
-	height:50ex;
+	width:50px;
+	height:50px;
 	background-color:#FFF;
-	border-radius: 25ex;
+	border-radius: 25px;
 	position: absolute;
 	left: 48%;
 	bottom: 50%;
@@ -35,18 +35,18 @@
 @keyframes box_to_point{
 	0% {
 		margin-bottom:50%;
-		width:50ex;
-		height:50ex;
-		border-radius: 25ex;
+		width:50px;
+		height:50px;
+		border-radius: 25px;
 		position: absolute;
 		left: 48%;
 		bottom: 50%;
 		}
 	10% {
 		margin-bottom:0;
-		width:50ex;
-		height:50ex;
-		border-radius: 25ex;
+		width:50px;
+		height:50px;
+		border-radius: 25px;
 		background-color:rgba(255,255,255,1);
 		position: absolute;
 		left: 48%;
@@ -55,30 +55,30 @@
 	14% {
 		margin-bottom:0;
 		width: 80%;
-		height: 550ex;
-		border-radius: 6ex;
+		height: 550px;
+		border-radius: 6px;
 		background-color:rgba(255,255,255,0.5);
 		position: absolute;
 		left: 10%;
 		bottom: 50%;
-    margin-bottom: -275ex;
+    margin-bottom: -275px;
 	}
 	96% {
 		margin-bottom:0;
 		width: 80%;
-		height: 550ex;
-		border-radius: 6ex;
+		height: 550px;
+		border-radius: 6px;
 		background-color:rgba(255,255,255,0.6);
 		position: absolute;
 		left: 10%;
     bottom: 50%;
-    margin-bottom: -275ex;
+    margin-bottom: -275px;
 	}
 	100% {
 		margin-bottom:0;
-		width:50ex;
-		height:50ex;
-		border-radius: 25ex;
+		width:50px;
+		height:50px;
+		border-radius: 25px;
 		background-color:rgba(255,255,255,1);
 		position: absolute;
 		left: 48%;
@@ -88,18 +88,18 @@
 @-webkit-keyframes box_to_point{
 	0% {
 		margin-bottom:50%;
-		width:50ex;
-		height:50ex;
-		border-radius: 25ex;
+		width:50px;
+		height:50px;
+		border-radius: 25px;
 		position: absolute;
 		left: 48%;
 		bottom: 50%;
 		}
 	10% {
 		margin-bottom:0;
-		width:50ex;
-		height:50ex;
-		border-radius: 25ex;
+		width:50px;
+		height:50px;
+		border-radius: 25px;
 		background-color:rgba(255,255,255,1);
 		position: absolute;
 		left: 48%;
@@ -108,8 +108,8 @@
 	14% {
 		margin-bottom:0;
 		width: 80%;
-		height: 550ex;
-		border-radius: 6ex;
+		height: 550px;
+		border-radius: 6px;
 		background-color:rgba(255,255,255,0.5);
 		position: absolute;
 		left: 10%;
@@ -118,8 +118,8 @@
 	96% {
 		margin-bottom:0;
 		width: 80%;
-		height: 550ex;
-		border-radius: 6ex;
+		height: 550px;
+		border-radius: 6px;
 		background-color:rgba(255,255,255,0.6);
 		position: absolute;
 		left: 10%;
@@ -127,9 +127,9 @@
 	}
 	100% {
 		margin-bottom:0;
-		width:50ex;
-		height:50ex;
-		border-radius: 25ex;
+		width:50px;
+		height:50px;
+		border-radius: 25px;
 		background-color:rgba(255,255,255,1);
 		position: absolute;
 		left: 48%;
@@ -139,26 +139,26 @@
 @keyframes bounce{
 	0% {
 		margin-bottom:0;
-		width: 50ex;
-		height: 50ex;
-		border-radius: 25ex;
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
 		bottom:50%;
 		left: 48%;
 	}
 	50% {
 		margin-bottom:0;
 		left: 48%;
-		width: 50ex;
-		height: 50ex;
-		border-radius: 25ex;
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
 		bottom:0;
 		left: 48%;
 	}
 	100% {
 		margin-bottom:0;
-		width: 20ex;
-		height: 20ex;
-		border-radius: 10ex;
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
 		left: 48%;
 		bottom: 0;
 		left: 20%;
@@ -167,26 +167,26 @@
 @-webkit-keyframes bounce{
 		0% {
 		margin-bottom:0;
-		width: 50ex;
-		height: 50ex;
-		border-radius: 25ex;
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
 		bottom:50%;
 		left: 48%;
 	}
 	50% {
 		margin-bottom:0;
 		left: 48%;
-		width: 50ex;
-		height: 50ex;
-		border-radius: 25ex;
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
 		bottom:0;
 		left: 48%;
 	}
 	100% {
 		margin-bottom:0;
-		width: 20ex;
-		height: 20ex;
-		border-radius: 10ex;
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
 		left: 48%;
 		bottom: 0;
 		left: 20%;
@@ -207,7 +207,7 @@
 }
 .ly-stxt01 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
+	font-size: 30px;
 	font-color: #000;
 	position: relative;
 	left: 5%;
@@ -235,12 +235,12 @@
 
 .ly-stxt02 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
+	font-size: 30px;
 	font-color: #000;
 	position: relative;
 	left: 5%;
 	top: 5%;
-	margin-top:-71ex;
+	margin-top:-71px;
 	opacity: 0;
 	animation:ly-stxt02_move 15s;
 	animation-delay:3s;
@@ -248,15 +248,15 @@
 	-webkit-animation-delay:3s;
 }
 @keyframes ly-stxt02_move{
-	0% {opacity:0;margin-top:-71ex;}
-	8% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	8% {opacity:0;margin-top:-71px;}
 	16% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
 }
 @-webkit-keyframes ly-stxt02_move{
-	0% {opacity:0;margin-top:-71ex;}
-	8% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	8% {opacity:0;margin-top:-71px;}
 	16% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
@@ -264,28 +264,28 @@
 
 .ly-stxt03 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
+	font-size: 30px;
 	font-color: #000;
 	position: relative;
 	left: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71ex;
+	margin-top:-71px;
 	animation:ly-stxt03_move 15s;
 	animation-delay:3s;
 	-webkit-animation:ly-stxt03_move 15s;
 	-webkit-animation-delay:3s;
 }
 @keyframes ly-stxt03_move{
-	0% {opacity:0;margin-top:-71ex;}
-	16% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	16% {opacity:0;margin-top:-71px;}
 	24% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
 }
 @-webkit-keyframes ly-stxt03_move{
-	0% {opacity:0;margin-top:-71ex;}
-	16% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	16% {opacity:0;margin-top:-71px;}
 	24% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
@@ -293,28 +293,28 @@
 
 .ly-stxt04 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
+	font-size: 30px;
 	font-color: #000;
 	position: relative;
 	left: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71ex;
+	margin-top:-71px;
 	animation:ly-stxt04_move 15s;
 	animation-delay:3s;
 	-webkit-animation:ly-stxt04_move 15s;
 	-webkit-animation-delay:3s;
 }
 @keyframes ly-stxt04_move{
-	0% {opacity:0;margin-top:-71ex;}
-	24% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	24% {opacity:0;margin-top:-71px;}
 	32% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
 }
 @-webkit-keyframes ly-stxt04_move{
-	0% {opacity:0;margin-top:-71ex;}
-	24% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	24% {opacity:0;margin-top:-71px;}
 	32% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
@@ -322,28 +322,28 @@
 
 .ly-stxt05 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
+	font-size: 30px;
 	font-color: #000;
 	position: relative;
 	left: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71ex;
+	margin-top:-71px;
 	animation:ly-stxt05_move 15s;
 	animation-delay:3s;
 	-webkit-animation:ly-stxt05_move 15s;
 	-webkit-animation-delay:3s;
 }
 @keyframes ly-stxt05_move{
-	0% {opacity:0;margin-top:-71ex;}
-	32% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	32% {opacity:0;margin-top:-71px;}
 	40% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
 }
 @-webkit-keyframes ly-stxt05_move{
-	0% {opacity:0;margin-top:-71ex;}
-	32% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	32% {opacity:0;margin-top:-71px;}
 	40% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
@@ -351,7 +351,7 @@
 
 .ly-stxt06 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
+	font-size: 30px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
@@ -379,28 +379,28 @@
 
 .ly-stxt07 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
+	font-size: 30px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71ex;
+	margin-top:-71px;
 	animation:ly-stxt07_move 15s;
 	animation-delay:3s;
 	-webkit-animation:ly-stxt07_move 15s;
 	-webkit-animation-delay:3s;
 }
 @keyframes ly-stxt07_move{
-	0% {opacity:0;margin-top:-71ex;}
-	48% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	48% {opacity:0;margin-top:-71px;}
 	56% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
 }
 @-webkit-keyframes ly-stxt07_move{
-	0% {opacity:0;margin-top:-71ex;}
-	48% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	48% {opacity:0;margin-top:-71px;}
 	56% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
@@ -408,28 +408,28 @@
 
 .ly-stxt08 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
+	font-size: 30px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71ex;
+	margin-top:-71px;
 	animation:ly-stxt08_move 15s;
 	animation-delay:3s;
 	-webkit-animation:ly-stxt08_move 15s;
 	-webkit-animation-delay:3s;
 }
 @keyframes ly-stxt08_move{
-	0% {opacity:0;margin-top:-71ex;}
-	56% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	56% {opacity:0;margin-top:-71px;}
 	64% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
 }
 @-webkit-keyframes ly-stxt08_move{
-	0% {opacity:0;margin-top:-71ex;}
-	56% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	56% {opacity:0;margin-top:-71px;}
 	64% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
@@ -437,28 +437,28 @@
 
 .ly-stxt09 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
+	font-size: 30px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71ex;
+	margin-top:-71px;
 	animation:ly-stxt09_move 15s;
 	animation-delay:3s;
 	-webkit-animation:ly-stxt09_move 15s;
 	-webkit-animation-delay:3s;
 }
 @keyframes ly-stxt09_move{
-	0% {opacity:0;margin-top:-71ex;}
-	64% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	64% {opacity:0;margin-top:-71px;}
 	72% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
 }
 @-webkit-keyframes ly-stxt09_move{
-	0% {opacity:0;margin-top:-71ex;}
-	64% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	64% {opacity:0;margin-top:-71px;}
 	72% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
@@ -466,28 +466,28 @@
 
 .ly-stxt10 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
+	font-size: 30px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71ex;
+	margin-top:-71px;
 	animation:ly-stxt10_move 15s;
 	animation-delay:3s;
 	-webkit-animation:ly-stxt10_move 15s;
 	-webkit-animation-delay:3s;
 }
 @keyframes ly-stxt10_move{
-	0% {opacity:0;margin-top:-71ex;}
-	72% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	72% {opacity:0;margin-top:-71px;}
 	80% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
 }
 @-webkit-keyframes ly-stxt10_move{
-	0% {opacity:0;margin-top:-71ex;}
-	72% {opacity:0;margin-top:-71ex;}
+	0% {opacity:0;margin-top:-71px;}
+	72% {opacity:0;margin-top:-71px;}
 	80% {opacity:1;margin-top:0;}
 	90% {opacity:1;margin-top:0;}
 	100% {opacity:0;margin-top:0;}
@@ -496,36 +496,36 @@
 /*时间轴的线*/
 
 .timeline {
-	width: 8ex;
+	width: 8px;
 	height: 0;
 	position: absolute;
 	left: 20%;
 	top:-100%;
 	background-color: #ccc;
-	border-radius:3ex;
+	border-radius:3px;
 	transition: all 2s;
 }
 .active .timeline {
-	width: 10ex;
+	width: 10px;
 	height: 100%;
 	top:0;
 	transition-delay: 0.1s;
 }
 /*时间轴上的点*/
 .timepoint {
-	width: 20ex;
-	height: 20ex;
-	margin-left: -5ex;
+	width: 20px;
+	height: 20px;
+	margin-left: -5px;
 	position: absolute;
 	left:20%;
 	top: 15.5%;
 	opacity: 0;
 	background-color: #fff;
-	-webkit-border-radius: 10ex;
-	-moz-border-radius: 10ex;
-	-ms-border-radius: 10ex;
-	-o-border-radius: 10ex;
-	border-radius: 10ex;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
 	transition: all 0.3s;
 }
 .active .timepoint {
@@ -534,19 +534,19 @@
 }
 /**时间轴上的点**/
 .timepoint11 {
-	width: 20ex;
-	height: 20ex;
-	margin-left: -5ex;
+	width: 20px;
+	height: 20px;
+	margin-left: -5px;
 	position: absolute;
 	left:20%;
 	top: 0;
 	opacity: 1;
 	background-color: #fff;
-	-webkit-border-radius: 10ex;
-	-moz-border-radius: 10ex;
-	-ms-border-radius: 10ex;
-	-o-border-radius: 10ex;
-	border-radius: 10ex;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
 	transition: all 1s;
 }
 .active .timepoint11 {
@@ -557,11 +557,11 @@
 /* 盒子 */
 .ly-box11 {
 	width: 30%;
-	height: 600ex;
-	border: 2ex #CCC;
+	height: 600px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 23%;
 	top: 10%;
@@ -581,11 +581,11 @@
 .ly-triangle11 {
 	width: 0;
 	height: 0;
-	border-top: 20ex solid transparent;
-	border-right: 22ex solid white;
-	border-bottom: 20ex solid transparent;
-	border-radius: 2ex;
-	margin-left: 24ex;
+	border-top: 20px solid transparent;
+	border-right: 22px solid white;
+	border-bottom: 20px solid transparent;
+	border-radius: 2px;
+	margin-left: 24px;
 	position: absolute;
 	right: 77%;
 	top: 14%;
@@ -596,7 +596,7 @@
 }
 .active .ly-triangle11 {
 	opacity: 0.6;
-	margin-left: 2ex;
+	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 3.5s;
@@ -607,7 +607,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 70%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -624,8 +624,8 @@
 /*文本*/
 .ly-txt11 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
-	text-shadow: 1ex;
+	font-size: 30px;
+	tpxt-shadow: 1px;
 	font-color: #000;
 	position: absolute;
 	left: 3%;
@@ -642,11 +642,11 @@
 
 .ly-txt12 {
 	font-family: Microsoft YaHei;
-	font-size: 20ex;
-	text-indent:2em;
+	font-size: 20px;
+	tpxt-indent:2em;
 	font-color: #000;
 	position: absolute;
-	padding-top: 20ex;
+	padding-top: 20px;
 	left: 5%;
 	top: 12%;
 	opacity: 0;
@@ -661,11 +661,11 @@
 /* 盒子 */
 .ly-box12 {
 	width: 40%;
-	height: 600ex;
-	border: 2ex #CCC;
+	height: 600px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 57%;
 	top:10%;
@@ -685,11 +685,11 @@
 .ly-triangle12 {
 	width: 0;
 	height: 0;
-	border-top: 20ex solid transparent;
-	border-right: 22ex solid white;
-	border-bottom: 20ex solid transparent;
-	border-radius: 2ex;
-	margin-left: 24ex;
+	border-top: 20px solid transparent;
+	border-right: 22px solid white;
+	border-bottom: 20px solid transparent;
+	border-radius: 2px;
+	margin-left: 24px;
 	position: absolute;
 	right: 43%;
 	top: 14%;
@@ -700,7 +700,7 @@
 }
 .active .ly-triangle12 {
 	opacity: 0.6;
-	margin-left: 2ex;
+	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 6s;
@@ -708,8 +708,8 @@
 /*文本*/
 .ly-txt13 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
-	text-shadow: 1ex;
+	font-size: 30px;
+	tpxt-shadow: 1px;
 	font-color: #000;
 	position: absolute;
 	left: 3%;
@@ -724,13 +724,13 @@
 }
 
 .ly-txt14 {
-	text-indent:2em;
+	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 18ex;
+	font-size: 18px;
 	font-color: #000;
 	position: absolute;
-	margin-left:30ex;
-	margin-right:30ex;
+	margin-left:30px;
+	margin-right:30px;
 	top: 12%;
 	opacity: 1;
 	transition: all 13s;
@@ -740,7 +740,7 @@
 }
 
 .active .ly-txt14 {
-	height:500ex;
+	height:500px;
 	transition-delay: 6.5s;
 }
 
@@ -748,19 +748,19 @@
 
 /**时间轴上的点**/
 .timepoint21 {
-	width: 20ex;
-	height: 20ex;
-	margin-left: -5ex;
+	width: 20px;
+	height: 20px;
+	margin-left: -5px;
 	position: absolute;
 	left:20%;
 	top: 0;
 	opacity: 1;
 	background-color: #fff;
-	-webkit-border-radius: 10ex;
-	-moz-border-radius: 10ex;
-	-ms-border-radius: 10ex;
-	-o-border-radius: 10ex;
-	border-radius: 10ex;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
 	transition: all 0.5s;
 }
 .active .timepoint21 {
@@ -771,11 +771,11 @@
 /* 盒子 */
 .ly-box21 {
 	width: 15%;
-	height: 600ex;
-	border: 2ex #CCC;
+	height: 600px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 23%;
 	top:10%;
@@ -795,11 +795,11 @@
 .ly-triangle21 {
 	width: 0;
 	height: 0;
-	border-top: 20ex solid transparent;
-	border-right: 22ex solid white;
-	border-bottom: 20ex solid transparent;
-	border-radius: 2ex;
-	margin-left: 24ex;
+	border-top: 20px solid transparent;
+	border-right: 22px solid white;
+	border-bottom: 20px solid transparent;
+	border-radius: 2px;
+	margin-left: 24px;
 	position: absolute;
 	right: 77%;
 	top: 14%;
@@ -810,7 +810,7 @@
 }
 .active .ly-triangle21 {
 	opacity: 0.6;
-	margin-left: 2ex;
+	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 3.5s;
@@ -821,7 +821,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 70%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -838,8 +838,8 @@
 /*文本*/
 .ly-txt21 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
-	text-shadow: 1ex;
+	font-size: 30px;
+	tpxt-shadow: 1px;
 	font-color: #000;
 	position: absolute;
 	left: 3%;
@@ -856,8 +856,8 @@
 
 .ly-txt22 {
 	font-family: Microsoft YaHei;
-	font-size: 13ex;
-	text-indent:2em;
+	font-size: 13px;
+	tpxt-indent:2em;
 	font-color: #000;
 	position: absolute;
 	left: 5%;
@@ -874,11 +874,11 @@
 /* 盒子 */
 .ly-box22 {
 	width: 15%;
-	height: 510ex;
-	border: 2ex #CCC;
+	height: 510px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 42%;
 	top:22%;
@@ -898,11 +898,11 @@
 .ly-triangle22 {
 	width: 0;
 	height: 0;
-	border-top: 20ex solid transparent;
-	border-right: 22ex solid white;
-	border-bottom: 20ex solid transparent;
-	border-radius: 2ex;
-	margin-left: 24ex;
+	border-top: 20px solid transparent;
+	border-right: 22px solid white;
+	border-bottom: 20px solid transparent;
+	border-radius: 2px;
+	margin-left: 24px;
 	position: absolute;
 	right: 58%;
 	top: 25%;
@@ -913,7 +913,7 @@
 }
 .active .ly-triangle22 {
 	opacity: 0.6;
-	margin-left: 2ex;
+	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 6s;
@@ -921,8 +921,8 @@
 /*文本*/
 .ly-txt23 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
-	text-shadow: 1ex;
+	font-size: 30px;
+	tpxt-shadow: 1px;
 	font-color: #000;
 	position: absolute;
 	left: 3%;
@@ -937,9 +937,9 @@
 }
 
 .ly-txt24 {
-	text-indent:2em;
+	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 14ex;
+	font-size: 14px;
 	font-color: #000;
 	position: absolute;
 	width:80%;
@@ -961,7 +961,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 80%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -980,10 +980,10 @@
 .ly-box23 {
 	width: 34%;
 	height: 0;
-	border: 2ex #CCC;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 61%;
 	bottom:6%;
@@ -992,18 +992,18 @@
 	transition: all 10s;
 }
 .active .ly-box23{
-	height:600ex;
+	height:600px;
 	transition-delay: 8s;
 }
 /*小三角*/
 .ly-triangle23 {
 	width: 0;
 	height: 0;
-	border-top: 20ex solid transparent;
-	border-right: 22ex solid white;
-	border-bottom: 20ex solid transparent;
-	border-radius: 2ex;
-	margin-left: 24ex;
+	border-top: 20px solid transparent;
+	border-right: 22px solid white;
+	border-bottom: 20px solid transparent;
+	border-radius: 2px;
+	margin-left: 24px;
 	position: absolute;
 	right: 39%;
 	top: 66%;
@@ -1014,7 +1014,7 @@
 }
 .active .ly-triangle23 {
 	opacity: 0.6;
-	margin-left: 2ex;
+	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 12s;
@@ -1022,8 +1022,8 @@
 /*文本*/
 .ly-txt25 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
-	text-shadow: 1ex;
+	font-size: 30px;
+	tpxt-shadow: 1px;
 	font-color: #000;
 	position: absolute;
 	left: 3%;
@@ -1038,9 +1038,9 @@
 }
 
 .ly-txt26 {
-	text-indent:2em;
+	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 14ex;
+	font-size: 14px;
 	font-color: #000;
 	position: absolute;
 	width:80%;
@@ -1062,7 +1062,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 80%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -1084,19 +1084,19 @@
 
 /**时间轴上的点**/
 .timepoint31 {
-	width: 20ex;
-	height: 20ex;
-	margin-left: -5ex;
+	width: 20px;
+	height: 20px;
+	margin-left: -5px;
 	position: absolute;
 	left:20%;
 	top: 0;
 	opacity: 1;
 	background-color: #fff;
-	-webkit-border-radius: 10ex;
-	-moz-border-radius: 10ex;
-	-ms-border-radius: 10ex;
-	-o-border-radius: 10ex;
-	border-radius: 10ex;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
 	transition: all 1s;
 }
 .active .timepoint31 {
@@ -1106,11 +1106,11 @@
 /* 盒子 */
 .ly-box31 {
 	width: 30%;
-	height: 600ex;
-	border: 2ex #CCC;
+	height: 600px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 23%;
 	top:10%;
@@ -1130,11 +1130,11 @@
 .ly-triangle31 {
 	width: 0;
 	height: 0;
-	border-top: 20ex solid transparent;
-	border-right: 22ex solid white;
-	border-bottom: 20ex solid transparent;
-	border-radius: 2ex;
-	margin-left: 24ex;
+	border-top: 20px solid transparent;
+	border-right: 22px solid white;
+	border-bottom: 20px solid transparent;
+	border-radius: 2px;
+	margin-left: 24px;
 	position: absolute;
 	right: 77%;
 	top: 14%;
@@ -1145,7 +1145,7 @@
 }
 .active .ly-triangle31 {
 	opacity: 0.6;
-	margin-left: 2ex;
+	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 3.5s;
@@ -1156,7 +1156,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 70%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -1173,8 +1173,8 @@
 /*文本*/
 .ly-txt31 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
-	text-shadow: 1ex;
+	font-size: 30px;
+	tpxt-shadow: 1px;
 	font-color: #000;
 	position: absolute;
 	left: 3%;
@@ -1191,11 +1191,11 @@
 
 .ly-txt32 {
 	font-family: Microsoft YaHei;
-	font-size: 20ex;
-	text-indent:2em;
+	font-size: 20px;
+	tpxt-indent:2em;
 	font-color: #000;
 	position: absolute;
-	padding-top: 20ex;
+	padding-top: 20px;
 	left: 5%;
 	top: 12%;
 	opacity: 0;
@@ -1210,11 +1210,11 @@
 /* 盒子 */
 .ly-box32 {
 	width: 40%;
-	height: 400ex;
-	border: 2ex #CCC;
+	height: 400px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 57%;
 	top:10%;
@@ -1234,11 +1234,11 @@
 .ly-triangle32 {
 	width: 0;
 	height: 0;
-	border-top: 20ex solid transparent;
-	border-right: 22ex solid white;
-	border-bottom: 20ex solid transparent;
-	border-radius: 2ex;
-	margin-left: 24ex;
+	border-top: 20px solid transparent;
+	border-right: 22px solid white;
+	border-bottom: 20px solid transparent;
+	border-radius: 2px;
+	margin-left: 24px;
 	position: absolute;
 	right: 43%;
 	top: 14%;
@@ -1249,7 +1249,7 @@
 }
 .active .ly-triangle32 {
 	opacity: 0.6;
-	margin-left: 2ex;
+	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 6s;
@@ -1257,8 +1257,8 @@
 /*文本*/
 .ly-txt33 {
 	font-family: Microsoft YaHei;
-	font-size: 30ex;
-	text-shadow: 1ex;
+	font-size: 30px;
+	tpxt-shadow: 1px;
 	font-color: #000;
 	position: absolute;
 	left: 3%;
@@ -1273,13 +1273,13 @@
 }
 
 .ly-txt34 {
-	text-indent:2em;
+	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 18ex;
+	font-size: 18px;
 	font-color: #000;
 	position: absolute;
-	margin-left:30ex;
-	margin-right:30ex;
+	margin-left:30px;
+	margin-right:30px;
 	top: 12%;
 	opacity: 1;
 	transition: all 13s;
@@ -1289,7 +1289,7 @@
 }
 
 .active .ly-txt34 {
-	height:500ex;
+	height:500px;
 	transition-delay: 6.5s;
 }
 .ly-imgbox31{
@@ -1297,7 +1297,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 70%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -1341,10 +1341,10 @@
 .ly-box51 {
 	width: 34%;
 	height: 0;
-	border: 2ex #CCC;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 61%;
 	bottom:6%;
@@ -1353,13 +1353,13 @@
 	transition: all 10s;
 }
 .active .ly-box51{
-	height:500ex;
+	height:500px;
 	transition-delay: 8s;
 }
 .ly-txt51 {
-	text-indent:2em;
+	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 14ex;
+	font-size: 14px;
 	font-color: #000;
 	position: absolute;
 	width:80%;
@@ -1377,11 +1377,11 @@
 }
 .ly-box52 {
 	width: 15%;
-	height: 550ex;
-	border: 2ex #CCC;
+	height: 550px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 23%;
 	top:10%;
@@ -1403,7 +1403,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 41%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -1416,12 +1416,12 @@
 	position: absolute;
 	width: 100%;
 	bottom: 0;
-	margin-bottom:-250ex;
+	margin-bottom:-250px;
 }
 .ly-txt61 {
-	text-indent:2em;
+	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 14ex;
+	font-size: 14px;
 	font-color: #000;
 	position: absolute;
 	width:80%;
@@ -1445,9 +1445,9 @@
 }
 
 .ly-txt71 {
-	text-indent:2em;
+	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 14ex;
+	font-size: 14px;
 	font-color: #000;
 	position: absolute;
 	width:80%;
@@ -1469,7 +1469,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 70%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -1485,11 +1485,11 @@
 }
 .ly-box71 {
 	width: 15%;
-	height: 540ex;
-	border: 2ex #CCC;
+	height: 540px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 42%;
 	top:17%;
@@ -1506,26 +1506,26 @@
 	transition-delay: 5s;
 }
 .xx71 {
-	height:550ex;
+	height:550px;
 	top:16%;
 }
 .xx72 {
 	top:20%;
 }
 .timepoint71 {
-	width: 20ex;
-	height: 20ex;
-	margin-left: -5ex;
+	width: 20px;
+	height: 20px;
+	margin-left: -5px;
 	position: absolute;
 	left:20%;
 	top: 0;
 	opacity: 1;
 	background-color: #fff;
-	-webkit-border-radius: 10ex;
-	-moz-border-radius: 10ex;
-	-ms-border-radius: 10ex;
-	-o-border-radius: 10ex;
-	border-radius: 10ex;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
 	transition: all 0.5s;
 }
 .active .timepoint71 {
@@ -1534,11 +1534,11 @@
 }
 .ly-box72 {
 	width: 15%;
-	height: 450ex;
-	border: 2ex #CCC;
+	height: 450px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 61%;
 	top: 20%;
@@ -1557,11 +1557,11 @@
 .ly-triangle71 {
 	width: 0;
 	height: 0;
-	border-top: 20ex solid transparent;
-	border-right: 22ex solid white;
-	border-bottom: 20ex solid transparent;
-	border-radius: 2ex;
-	margin-left: 24ex;
+	border-top: 20px solid transparent;
+	border-right: 22px solid white;
+	border-bottom: 20px solid transparent;
+	border-radius: 2px;
+	margin-left: 24px;
 	position: absolute;
 	right: 39%;
 	top: 27%;
@@ -1572,7 +1572,7 @@
 }
 .active .ly-triangle71 {
 	opacity: 0.6;
-	margin-left: 2ex;
+	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 8.5s;
@@ -1580,11 +1580,11 @@
 
 .ly-box73 {
 	width: 15%;
-	height: 400ex;
-	border: 2ex #CCC;
+	height: 400px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 80%;
 	top: 25%;
@@ -1603,11 +1603,11 @@
 .ly-triangle72 {
 	width: 0;
 	height: 0;
-	border-top: 20ex solid transparent;
-	border-right: 22ex solid white;
-	border-bottom: 20ex solid transparent;
-	border-radius: 2ex;
-	margin-left: 24ex;
+	border-top: 20px solid transparent;
+	border-right: 22px solid white;
+	border-bottom: 20px solid transparent;
+	border-radius: 2px;
+	margin-left: 24px;
 	position: absolute;
 	right: 20%;
 	top: 30%;
@@ -1618,15 +1618,15 @@
 }
 .active .ly-triangle72 {
 	opacity: 0.6;
-	margin-left: 2ex;
+	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 12s;
 }
 .ly-txt72 {
-	text-indent:2em;
+	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 14ex;
+	font-size: 14px;
 	font-color: #000;
 	position: absolute;
 	width:80%;
@@ -1648,7 +1648,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 80%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -1664,9 +1664,9 @@
 }
 
 .ly-txt73 {
-	text-indent:2em;
+	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 14ex;
+	font-size: 14px;
 	font-color: #000;
 	position: absolute;
 	width:80%;
@@ -1688,7 +1688,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 77%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -1700,17 +1700,17 @@
 .ly-img73{
 	position: absolute;
 	height: 100%;
-	margin-left:-200ex;
+	margin-left:-200px;
 	bottom: 0;
 }
 
 .ly-box81 {
 	width: 15%;
-	height: 600ex;
-	border: 2ex #CCC;
+	height: 600px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 23%;
 	top:10%;
@@ -1728,11 +1728,11 @@
 }
 .ly-txt82 {
 	font-family: Microsoft YaHei;
-	font-size: 14ex;
-	text-indent:1em;
+	font-size: 14px;
+	tpxt-indent:1em;
 	font-color: #000;
 	position: absolute;
-	padding-top: 20ex;
+	padding-top: 20px;
 	left: 5%;
 	top: 11%;
 	opacity: 0;
@@ -1749,7 +1749,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 90%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -1766,11 +1766,11 @@
 
 .ly-box82 {
 	width: 54%;
-	height: 600ex;
-	border: 2ex #CCC;
+	height: 600px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 42%;
 	top:10%;
@@ -1790,11 +1790,11 @@
 .ly-triangle82 {
 	width: 0;
 	height: 0;
-	border-top: 20ex solid transparent;
-	border-right: 22ex solid white;
-	border-bottom: 20ex solid transparent;
-	border-radius: 2ex;
-	margin-left: 24ex;
+	border-top: 20px solid transparent;
+	border-right: 22px solid white;
+	border-bottom: 20px solid transparent;
+	border-radius: 2px;
+	margin-left: 24px;
 	position: absolute;
 	right: 58%;
 	top: 14%;
@@ -1805,7 +1805,7 @@
 }
 .active .ly-triangle82 {
 	opacity: 0.6;
-	margin-left: 2ex;
+	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 6s;
@@ -1814,13 +1814,13 @@
 
 
 .ly-txt84 {
-	text-indent:2em;
+	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 15ex;
+	font-size: 15px;
 	font-color: #000;
 	position: absolute;
-	margin-left:30ex;
-	margin-right:30ex;
+	margin-left:30px;
+	margin-right:30px;
 	top: 12%;
 	opacity: 1;
 	transition: all 33s;
@@ -1830,12 +1830,12 @@
 }
 
 .active .ly-txt84 {
-	height:500ex;
+	height:500px;
 	transition-delay: 6.5s;
 }
 .ly-txt90 {
 	font-family: Microsoft YaHei;
-	font-size: 14ex;
+	font-size: 14px;
 	font-color: #000;
 	position: absolute;
 	width:80%;
@@ -1853,7 +1853,7 @@
 }
 .ly-txt91 {
 	font-family: Microsoft YaHei;
-	font-size: 14ex;
+	font-size: 14px;
 	font-color: #000;
 	position: absolute;
 	width:80%;
@@ -1875,7 +1875,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 80%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -1891,11 +1891,11 @@
 }
 .ly-box91 {
 	width: 15%;
-	height: 450ex;
-	border: 2ex #CCC;
+	height: 450px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 42%;
 	top:18%;
@@ -1912,26 +1912,26 @@
 	transition-delay: 5s;
 }
 .xx91 {
-	height: 450ex;
+	height: 450px;
 	top:18%;
 }
 .xx92 {
 	top:22%;
 }
 .timepoint91 {
-	width: 20ex;
-	height: 20ex;
-	margin-left: -5ex;
+	width: 20px;
+	height: 20px;
+	margin-left: -5px;
 	position: absolute;
 	left:20%;
 	top: 0;
 	opacity: 1;
 	background-color: #fff;
-	-webkit-border-radius: 10ex;
-	-moz-border-radius: 10ex;
-	-ms-border-radius: 10ex;
-	-o-border-radius: 10ex;
-	border-radius: 10ex;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
 	transition: all 0.5s;
 }
 .active .timepoint91 {
@@ -1940,11 +1940,11 @@
 }
 .ly-box92 {
 	width: 15%;
-	height: 450ex;
-	border: 2ex #CCC;
+	height: 450px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 61%;
 	top: 18%;
@@ -1963,11 +1963,11 @@
 .ly-triangle91 {
 	width: 0;
 	height: 0;
-	border-top: 20ex solid transparent;
-	border-right: 22ex solid white;
-	border-bottom: 20ex solid transparent;
-	border-radius: 2ex;
-	margin-left: 24ex;
+	border-top: 20px solid transparent;
+	border-right: 22px solid white;
+	border-bottom: 20px solid transparent;
+	border-radius: 2px;
+	margin-left: 24px;
 	position: absolute;
 	right: 39%;
 	top:22%;
@@ -1978,7 +1978,7 @@
 }
 .active .ly-triangle91 {
 	opacity: 0.6;
-	margin-left: 2ex;
+	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 8.5s;
@@ -1986,11 +1986,11 @@
 
 .ly-box93 {
 	width: 15%;
-	height: 450ex;
-	border: 2ex #CCC;
+	height: 450px;
+	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
-	border-radius: 8ex;
+	border-radius: 8px;
 	position: absolute;
 	left: 80%;
 	top:18%;
@@ -2009,11 +2009,11 @@
 .ly-triangle92 {
 	width: 0;
 	height: 0;
-	border-top: 20ex solid transparent;
-	border-right: 22ex solid white;
-	border-bottom: 20ex solid transparent;
-	border-radius: 2ex;
-	margin-left: 24ex;
+	border-top: 20px solid transparent;
+	border-right: 22px solid white;
+	border-bottom: 20px solid transparent;
+	border-radius: 2px;
+	margin-left: 24px;
 	position: absolute;
 	right: 20%;
 	top:22%;
@@ -2024,15 +2024,15 @@
 }
 .active .ly-triangle92 {
 	opacity: 0.6;
-	margin-left: 2ex;
+	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 12s;
 }
 .ly-txt92 {
-	text-indent:2em;
+	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 14ex;
+	font-size: 14px;
 	font-color: #000;
 	position: absolute;
 	width:80%;
@@ -2054,7 +2054,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 80%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
@@ -2070,9 +2070,9 @@
 }
 
 .ly-txt93 {
-	text-indent:2em;
+	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 14ex;
+	font-size: 14px;
 	font-color: #000;
 	position: absolute;
 	width:80%;
@@ -2094,7 +2094,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 80%;
-	border-radius: 8ex;
+	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
 	transition:all 0.5s;
