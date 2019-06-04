@@ -1173,12 +1173,13 @@
 .ly-img31{
 	position: absolute;
 	width: 100%;
+
 	bottom: 0;
 }
 /*文本*/
 .ly-txt31 {
 	font-family: Microsoft YaHei;
-	font-size: 10px;
+	font-size: 30px;
 	tpxt-shadow: 1px;
 	font-color: #000;
 	position: absolute;
@@ -1264,7 +1265,7 @@
 /*文本*/
 .ly-txt33 {
 	font-family: Microsoft YaHei;
-	font-size: 10px;
+	font-size: 30px;
 	tpxt-shadow: 1px;
 	font-color: #000;
 	position: absolute;
@@ -1333,18 +1334,30 @@
 	bottom: 0;
 
 }
+.ly-img319{
+	position: absolute;
+	width: 50%;
+	height: 150%;
+	bottom: 0;
+}
 .ly-img314{
 	position: absolute;
 	width: 50%;
+	height: 150%;
 	bottom: 0;
 }
 .ly-img316{
 	position: absolute;
-	/* width: 50%; */
+	width: 80%;
 	height: 95%;
 	bottom: 0;
 }
-
+.ly-img317{
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	bottom: 0;
+}
 /*后续修正*/
 
 .ly-box51 {
