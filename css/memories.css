@@ -198,12 +198,14 @@
 	width: 40%;
 	left:10%;
 	top:10%;
+
 }
 .ly-txt02 {
 	position:absolute;
 	width: 40%;
 	left:60%;
 	top:10%;
+	
 }
 .ly-stxt01 {
 	font-family: Microsoft YaHei;
@@ -217,6 +219,7 @@
 	animation-delay:3s;
 	-webkit-animation:ly-stxt01_move 15s;
 	-webkit-animation-delay:3s;
+	
 }
 @keyframes ly-stxt01_move{
 	0% {opacity:0;}
@@ -1030,6 +1033,7 @@
 	top: 2%;
 	opacity: 0;
 	transition: all 0.5s;
+	line-height: 10px;
 }
 
 .active .ly-txt25 {
@@ -1050,6 +1054,7 @@
 	transition: all 0.5s;
 	width:88%;
 	overflow:hidden;
+	line-height: 10px;
 }
 
 .active .ly-txt26 {
@@ -1173,7 +1178,7 @@
 /*文本*/
 .ly-txt31 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 10px;
 	tpxt-shadow: 1px;
 	font-color: #000;
 	position: absolute;
@@ -1181,6 +1186,7 @@
 	top: 4%;
 	opacity: 0;
 	transition: all 0.5s;
+	line-height: 10px;
 }
 
 .active .ly-txt31 {
@@ -1191,7 +1197,7 @@
 
 .ly-txt32 {
 	font-family: Microsoft YaHei;
-	font-size: 20px;
+	font-size: 10px;
 	tpxt-indent:2em;
 	font-color: #000;
 	position: absolute;
@@ -1200,7 +1206,7 @@
 	top: 12%;
 	opacity: 0;
 	transition: all 1s;
-	line-height: 50px;
+	line-height: 10px;
 }
 
 .active .ly-txt32 {
@@ -1258,7 +1264,7 @@
 /*文本*/
 .ly-txt33 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 10px;
 	tpxt-shadow: 1px;
 	font-color: #000;
 	position: absolute;
@@ -1266,6 +1272,7 @@
 	top: 4%;
 	opacity: 0;
 	transition: all 0.5s;
+	line-height: 10px;
 }
 
 .active .ly-txt33 {
@@ -1276,7 +1283,7 @@
 .ly-txt34 {
 	tpxt-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 18px;
+	font-size: 10px;
 	font-color: #000;
 	position: absolute;
 	margin-left:30px;
@@ -1287,6 +1294,7 @@
 	height:0;
 	width:88%;
 	overflow:hidden;
+	line-height: 10px;
 }
 
 .active .ly-txt34 {
@@ -1370,6 +1378,7 @@
 	transition: all 0.5s;
 	width:88%;
 	overflow:hidden;
+	line-height: 10px;
 }
 
 .active .ly-txt51 {
@@ -1432,6 +1441,7 @@
 	transition: all 0.5s;
 	width:88%;
 	overflow:hidden;
+	line-height: 10px;
 }
 
 .active .ly-txt61 {
