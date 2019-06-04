@@ -1320,13 +1320,19 @@
 .ly-img312{
 	position: absolute;
 	width: 50%;
-	height: 60%;
+	height: 75%;
 	bottom: 0;
 
 }
 .ly-img314{
 	position: absolute;
 	width: 50%;
+	bottom: 0;
+}
+.ly-img316{
+	position: absolute;
+	/* width: 50%; */
+	height: 95%;
 	bottom: 0;
 }
 
